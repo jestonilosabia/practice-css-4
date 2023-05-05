@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies</title>
+	<link rel="stylesheet" type="text/css" href="css/darkStyle.css" />
+	<style type="text/css">
+	body {
+		font-size: 100%;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	table.dark {
+		border: 1px solid #1a1a1a;
+		background-image: url(images/gradient.gif);
+		background-repeat: repeat;
+	}
+
+	table.dark th {
+		border-bottom: 1px solid #000;
+		color: #dfe9ec; /* Set the font color of the table header to hex code dfe9ec */
+		text-align: left; /* Align the text to the left */
+		background-color: #292929; /* Set the background color to hex code 292929 */
+	}
+
+	table.dark td {
+		border-right: 1px solid #1a1a1a;
+		color: #dfe9ec; /* Set the font color of the table cells to hex code dfe9ec */
+		padding: 15px; /* Add padding to the table cells */
+		vertical-align: top; /* Align the content to the top of the cell */
+	}
+
+	table.dark h4 {
+		font-weight: normal;
+		margin: 0; /* Remove margin from the h4 element */
+	}
+
+	table.dark small, 
+	table.dark td:nth-child(2),
+	table.dark td:not(:nth-child(2)) {
+		color: #dfe9ec; /* Set the font color to hex code dfe9ec */
+	}
+	</style>
+</head>
+<body>
+	<table class="dark">
+		<thead>
+			<tr>
+				<th style="color: #dfe9ec; text-align: left; background-color: #292929;">FILM</th>
+				<th style="color: #dfe9ec; background-color: #292929;">YEAR</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<h4>Citizen Kane<br><small>Orson Welles, Joseph Cotten, Dorothy Comingore</small></h4>
+				</td>
+				<td>1941</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Gone With The Wind<br><small>Clark Gable, Vivian Leigh</small></h4>
+				</td>
+				<td>1939</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Casablanca<br><small>Humphrey Bogart, Ingrid Bergman</small></h4>
+				</td>
+				<td>1942</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
